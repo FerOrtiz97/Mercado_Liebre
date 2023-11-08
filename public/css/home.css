@@ -10,11 +10,11 @@ header nav {
     margin: 10px 0px;
 }
 
-.burger-menu {
+.burger__menu {
     text-align: center;
 }
 
-.burger-menu i {
+.burger__menu i {
     background-color: var(--color-celeste);
     padding: 10px;
     margin: 10px;
@@ -51,7 +51,7 @@ footer {
 
 .footer__section__article i {
     margin-bottom: 10px;
-    font-size: 32px;
+    font-size: 2em;
     color: var(--color-celeste);
 }
 
