@@ -1,0 +1,33 @@
+.home__main {
+    background-color: var(--color-gris-claro);
+    padding-bottom: 10px;
+}
+
+.home__main__section {
+    padding: 0px 10px;
+}
+
+.home__main__section__article {
+    text-align: center;
+    margin: 10px 0px;
+    background-color: var(--color-blanco);
+    padding: 10px;
+}
+
+footer {
+    margin: 20px 0px;
+}
+
+.footer__section__article {
+    text-align: center;
+    margin: 40px 0px;
+    background-color: var(--color-blanco);
+    padding: 10px;
+}
+
+.footer__section__article i {
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: var(--color-celeste);
+}
+

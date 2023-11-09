@@ -1,41 +1,31 @@
-header {
-    background-color: var(--color-amarillo);
-}
-
-header img {
-    width: 40%;
-}
-
-header nav {
-    margin: 10px 0px;
-}
-
-.burger-menu {
-    text-align: center;
-}
-
-.burger-menu i {
-    background-color: var(--color-celeste);
-    padding: 10px;
-    margin: 10px;
-    color: var(--color-blanco);
-    border-radius: 5px;
-}
-
 .home__main {
     background-color: var(--color-gris-claro);
     padding-bottom: 10px;
 }
 
 .home__main__section {
-    padding: 0px 10px;
+    padding: 15px 0px 0px;
 }
 
+.home__main__article-div{
+text-align: left;
+}
+
+.fa-truck{
+    color: var(--color-verde);
+    padding: 1% 1% 1% 1%;
+    border:1px solid var(--color-verde);
+    border-radius: 100%;
+}
 .home__main__section__article {
     text-align: center;
-    margin: 40px 0px;
+    margin: 10px 20px;
     background-color: var(--color-blanco);
     padding: 10px;
+}
+
+.home__main__producto{
+    margin: 5px 0px;
 }
 
 footer {
@@ -55,3 +45,28 @@ footer {
     color: var(--color-celeste);
 }
 
+.home__main__section__article {
+    margin-bottom: 10px;
+    padding: 15px;
+    border-top: 1px solid var(--color-gris-claro);
+}
+
+
+
+@media (max-width: 768px) {
+    .home__nav {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .home__main__section__article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+}

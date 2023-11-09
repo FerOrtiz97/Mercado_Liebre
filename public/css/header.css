@@ -1,0 +1,31 @@
+header {
+    background-color: var(--color-amarillo);
+}
+
+header img {
+    width: 40%;
+    margin: 10px 24px
+}
+
+header nav {
+    margin: 10px 13px 0px;
+}
+
+.header__section_icon{
+    text-align: center;
+}
+
+
+
+.burger-menu {
+    text-align: center;
+}
+
+.burger-menu i {
+    background-color: var(--color-celeste);
+    padding: 10px;
+    margin: 10px;
+    color: var(--color-blanco);
+    border-radius: 5px;
+}
+
