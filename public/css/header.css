@@ -1,21 +1,57 @@
-header {
-    background-color: var(--color-amarillo);
+body{
+    background-color: var(--color-gris-claro);
+}
+.header{
+    width: 100%;
+    background-color:  var(--color-amarillo);
+    padding: 12px;
 }
 
-header img {
-    width: 40%;
-    margin: 10px 24px
-}
-
-header nav {
-    margin: 10px 13px 0px;
-}
-
-.header__section_icon{
+.home__header{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
 }
 
+.header__seach{
+    width: 50%;
+    padding: 10px;
+}
 
+.header_input{
+    display: initial;
+    width: 85%;
+    height: 30px;
+}
+
+.header__logo{
+    width: 50%;
+}
+
+.logo{
+    width: 150px;
+}
+
+.header__cuotas{
+    font-weight: bold;
+    padding: 20px 0;
+    font-size: 12px;
+    margin: auto;
+}
+
+.header__nav{
+    display:none;
+}
+.header__nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav ul li a{
+    color: #000;
+    display: inline-block;
+    padding: 6px 0;
+}
 
 .burger-menu {
     text-align: center;
@@ -29,3 +65,33 @@ header nav {
     border-radius: 5px;
 }
 
+@media  (min-width: 768px){ 
+    .header__logo{
+        width: 33.3%;
+    }
+    .header__seach{
+        width: 33.3%;
+        padding: 10px;
+    }
+    .header_input{
+        display:initial;
+        height: 35px;
+    }
+    .header__cuotas{
+        width: 33.3%;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .header__cuotas{
+        font-size: 2vw;
+    }
+    .header__nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__nav ul li{
+        display: inline;
+        padding-left: 10px;
+    }
+}

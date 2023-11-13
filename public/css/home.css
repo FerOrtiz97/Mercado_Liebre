@@ -1,72 +1,149 @@
-.home__main {
-    background-color: var(--color-gris-claro);
-    padding-bottom: 10px;
+.banner{
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-.home__main__section {
-    padding: 15px 0px 0px;
+.ultima-vista{
+    font-size: 24px;
+    text-align: center;
+    color: var(--color-gris-Oscuro)
+    
 }
 
-.home__main__article-div{
-text-align: left;
+.seccion-ofertas{
+    font-size: 24px;
+    text-align: center;
+    color: var(--color-grisOscuro);
+}
+
+.home__main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home__main__section{
+    padding: 15px 0 ;
+}
+
+.home__main__section__article{
+    padding: 15px 0 ;
+}
+
+.home__main__section__article{
+    background-color: var(--color-blanco);
+    margin-bottom: 15px;
+}
+
+.home__main__section__article img {
+    width: 100%;
+
+}
+
+.product-texto {
+    position: relative;
+    border-top: 1px solid #ebebeb;
+    font-size: 18px;
+    padding: 15px;
 }
 
 .fa-truck{
+    position: absolute;
+    right:15px;
+    bottom: 73px;
+}
+
+.fa-circle{
+    font-size: 35px;
+    position: absolute;
+    right: 9px;
+    bottom: 65px;
+}
+
+.main_descuento_precio_articulo{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.precio-txt {
+    font-size: 16px;
+    width: 30%;
+}
+
+.descuento-txt {
     color: var(--color-verde);
-    padding: 1% 1% 1% 1%;
-    border:1px solid var(--color-verde);
-    border-radius: 100%;
+    font-size: 15px;
+    width: 70%;
 }
-.home__main__section__article {
-    text-align: center;
-    margin: 10px 20px;
+
+.modelo-txt {
+    color: var(--color-grisOscuro);
+    font-size: 16px;
+    margin: 0px;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
     background-color: var(--color-blanco);
-    padding: 10px;
 }
 
-.home__main__producto{
-    margin: 5px 0px;
-}
-
-footer {
-    margin: 20px 0px;
-}
-
-.footer__section__article {
+.footer-txt{
     text-align: center;
-    margin: 40px 0px;
-    background-color: var(--color-blanco);
-    padding: 10px;
+    padding: 20px;
+    font-size: 12px;
 }
 
-.footer__section__article i {
+.icono-footer{
+    font-size: 2em;
     margin-bottom: 10px;
-    font-size: 32px;
-    color: var(--color-celeste);
 }
 
-.home__main__section__article {
-    margin-bottom: 10px;
-    padding: 15px;
-    border-top: 1px solid var(--color-gris-claro);
+.copyright{
+    background-color:var(--color-blanco);
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 
-
-@media (max-width: 768px) {
-    .home__nav {
-        display: none;
-    }
+@media  (min-width: 768px){ 
+.banner{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.home__main__section{
 
 }
+.home__main__section__article{
 
-@media (min-width: 1024px) {
-    .home__main__section__article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
+}
+.home__main__section__article{
+    margin: 15px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.footer{
+    display: flex;
+}
+.copyright{
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+}
+}
 
-    .burger-menu {
-        display: none;
-    }
+
+@media  (min-width: 1024px){
+.home__main__section{
+
+}
+.home__main__section__article{
+
+}
+.header__cuotas{
+    font-size: 1.5vw;
+}
+.header_input{
+    width: 25vw;
+}
 
 }
