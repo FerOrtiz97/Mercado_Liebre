@@ -112,9 +112,13 @@
     margin-bottom: 20px;
 }
 .home__main__section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .home__main__section__article{
+width: 45%;
 
 }
 .home__main__section__article{
@@ -134,9 +138,13 @@
 
 @media  (min-width: 1024px){
 .home__main__section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .home__main__section__article{
+width: 22%;
 
 }
 .header__cuotas{
