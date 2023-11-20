@@ -1,16 +1,45 @@
 main{
     padding: 10px;
 }
+
 .main_registro{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .datos_usario{
     margin: 15px 0;
 }
+
 .article_registro_main{
     margin: 15px 0;
+}
+
+.article_perfil_usuario {
+    margin: 2% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article_perfil_usuario div {
+    display: flex;
+    width: 40%;
+}
+
+.article_perfil_usuario div input {
+    margin: 0% 10%;
+}
+
+.article_form_main {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+}
+
+.article_form_main div {
+    margin: 2% 5%;
 }
 
 .imput_register{
@@ -19,6 +48,7 @@ main{
     border: 1px solid var(--color-grisClaro);
     border-radius: 5px;
 }
+
 .button_enviar_registro{
     width: 20%;
     height: 40px;
@@ -27,6 +57,7 @@ main{
     border: 1px solid var(--color-celeste);
     border-radius: 5px;
 }
+
 .button_reset_registro{
     width: 20%;
     height: 40px;
@@ -35,9 +66,6 @@ main{
     border: 1px solid var(--color-celeste);
     border-radius: 5px;
 }
-
-
-
 
 @media(min-width: 768px){
     .main_registro{
@@ -53,5 +81,11 @@ main{
     .imput_register{
         width: 35%;
         height: 35px;
+    }
+    .article_form_main {
+        padding: 0%;
+    }
+    .article_form_main input {
+        margin-right: 3%;
     }
 }
