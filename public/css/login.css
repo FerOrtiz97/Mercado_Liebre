@@ -17,12 +17,17 @@
 .button_main_login{
     width: 60%;
     height: 30px;
-    background-color: var(--color-celeste);
-    color: var(--color-blanco);
-    border: 1px solid var(--color-celeste);
+    background-color: #fff;
+    color: #000;
+    /*border: 1px solid var(--color-celeste);*/
     border-radius: 5px;
-
+    transition: background-color 2seg;
 }
+.button_main_login:hover {
+    background-color: var(--color-celeste);
+    border: 1px solid var(--color-celeste);
+    color: #fff;
+  }
 @media(min-width: 768px){
     .input_login{
         width: 60%;
